@@ -14,5 +14,5 @@ setup(
         "Operating System :: OS Independent",
     ],
 
-    entry_points={"console_scripts": ["libraryX = libraryX.main:download"]},
+    entry_points={"console_scripts": ["libraryX = libraryX.main:main"]},
 )
