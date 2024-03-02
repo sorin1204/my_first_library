@@ -1,10 +1,10 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="<libraryX>",
+    name="libraryX",
     version="0.0.1",
-    author="<Sorin>",
-    author_email="<samanatis761@gmail.com>",
+    author="Sorin",
+    author_email="samanatis761@gmail.com",
     url="",
     description="universal library for everyone",
     packages=find_packages(),
@@ -14,5 +14,5 @@ setup(
         "Operating System :: OS Independent",
     ],
 
-    entry_points={"console_scripts": ["<libraryX> = <libraryX>.main:download"]},
+    entry_points={"console_scripts": ["libraryX = libraryX.main:download"]},
 )
